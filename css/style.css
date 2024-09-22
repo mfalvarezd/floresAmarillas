@@ -49,18 +49,14 @@ body{
 }
 .mensaje {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    
+  
     text-align: center; /* Centra el texto dentro del div */
     width: 100%; /* Ocupa todo el ancho disponible */
 
     padding: 20px;
     box-sizing: border-box;
 }
-.mensaje{
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
+
 
 .button a{
     text-decoration: none;
