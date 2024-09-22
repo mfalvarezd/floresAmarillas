@@ -45,6 +45,21 @@ body{
 .description{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    
+}
+.mensaje {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (si tiene un alto definido) */
+    text-align: center; /* Centra el texto dentro del div */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.mensaje{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .button a{
@@ -63,6 +78,9 @@ body{
     .description{
         font-size: 1rem;
     }
+    .mensaje{
+        font-size: 1rem;
+    }
     
     .button a{
         font-size: .5rem;
@@ -71,6 +89,9 @@ body{
 
 .description{
     color: #fbff00;
+}
+.mensaje{
+    color: aliceblue;
 }
 
 /* Estilo para el botón */
