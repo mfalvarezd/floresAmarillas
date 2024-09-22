@@ -50,10 +50,10 @@ body{
 .mensaje {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (si tiene un alto definido) */
+    
     text-align: center; /* Centra el texto dentro del div */
     width: 100%; /* Ocupa todo el ancho disponible */
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
+
     padding: 20px;
     box-sizing: border-box;
 }
